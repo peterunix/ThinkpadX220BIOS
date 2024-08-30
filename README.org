@@ -1,0 +1,13 @@
+* Thinkpad X220 BIOS
+Unmodified export of my ThinkpadX220 taken prior to corebooting.
+
+* Version Information
+UEFI BIOS Version: 8DET56WW (1.26)
+UEFI BIOS Date (2011-12-01)
+Embedded Controller Version: 8DHT29WW (1.13)
+Machine Type Model: 42918G1
+
+* Why are there two binaries?
+My flasher reported there being two chips to read data from. Both chips are the
+same i guess. The MD5sums of the files matched. The chip that I flashed coreboot
+to is the one named "w25q64bv-w25q64cv-w25q64fv"
